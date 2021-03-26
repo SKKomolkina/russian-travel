@@ -1,0 +1,15 @@
+.place {
+    max-height: 660px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
