@@ -19,7 +19,7 @@
     }
 }
 
-@media (max-width : 320px) {  
+@media (max-width: 320px) {  
 
     .lead__title {
         max-width: 100vw;

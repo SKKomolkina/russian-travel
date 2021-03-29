@@ -1,9 +1,7 @@
 /* <-----NORMALIZE-----> */ 
 @import url(../vendors/normalize.css);
-
 /* <-----FONTS-----> */ 
 @import url(../vendors/fonts/fonts.css);
-
 /* <-----ROOT------> */ 
 @import url(../blocks/root/root.css);
 /* ---HEADER--- */ 

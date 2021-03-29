@@ -9,7 +9,7 @@
     list-style-type: none;
 }
 
-@media (max-width : 750px) {
+@media (max-width: 750px) {
     
     .footer__navigation {
         margin-left: 16px;

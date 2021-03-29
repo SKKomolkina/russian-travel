@@ -9,7 +9,7 @@
     text-align: right;
 }
 
-@media (max-width : 750px) {
+@media (max-width: 750px) {
     
     .footer__copyright {
         text-align: left;
