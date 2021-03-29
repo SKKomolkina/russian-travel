@@ -9,7 +9,7 @@
     align-self: end;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 
     .place__title {
         padding-left: 48px;
