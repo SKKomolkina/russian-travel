@@ -1,4 +1,4 @@
-.place__paragraph-item {
+.place__paragraph_item {
     margin: 0;
     margin-bottom: 26px;
     padding: 0;
@@ -8,13 +8,13 @@
     line-height: 163%;
 }
 
-.place__paragraph-item:last-child {
+.place__paragraph_item:last-child {
     margin-bottom: 0;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    .place__paragraph-item {
+    .place__paragraph_item {
         font-size: calc(16px + (18 - 16) * ((100vw - 768px) / (1024 - 768)));
     }
 

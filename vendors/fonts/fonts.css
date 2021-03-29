@@ -17,10 +17,3 @@
     font-size: 900;
     font-weight: bold;
 }
-
-@font-face {
-    src: url('Inter.ttf') format('truetype');
-    font-family: 'Inter';
-    font-size: 400;
-    font-weight: normal;
-}
