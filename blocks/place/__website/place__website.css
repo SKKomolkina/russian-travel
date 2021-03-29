@@ -4,3 +4,10 @@
     padding: 0;
     align-self: end;
 }
+
+@media (max-width: 320px) {
+    
+    .place__website {
+        margin-left: 16px;
+    }
+}

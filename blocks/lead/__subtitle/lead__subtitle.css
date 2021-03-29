@@ -2,12 +2,28 @@
     margin: 0;
     margin-top: 32px;
     padding: 0;
-    max-width: 640px;
-    max-height: 72px;
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
+    white-space: pre-line;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .lead__subtitle {
+        font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
+    }
+  }
+
+@media (max-width : 320px) {  
+
+    .lead__subtitle{
+        margin-top: 16px;
+        padding-right: 16px;
+        padding-left: 16px;
+        font-size: 16px;
+        line-height: 20px;
+    }
 }

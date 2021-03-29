@@ -10,3 +10,11 @@
     line-height: 122%;
     text-align: center;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .cover__subtitle {
+        font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
+        margin-bottom: 97px;
+    }
+}

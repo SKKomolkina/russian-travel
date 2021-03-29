@@ -5,6 +5,31 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 106%;
+    line-height: 76px;
     align-self: end;
+}
+
+@media (max-width: 1024px) {
+
+    .place__title {
+        padding-left: 48px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .place__title {
+        font-size: calc(42px + (72 - 42) * ((100vw - 768px) / (1024 - 768)));
+        line-height: calc(46px + (76 - 46) * ((100vw - 768px) / (1024 - 768)));
+        padding-left: 24px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .place__title {
+        font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(35px + (76 - 35) * ((100vw - 320px) / (768 - 320)));
+        padding-left: 16px;
+    }
 }

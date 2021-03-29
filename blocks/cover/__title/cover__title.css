@@ -8,4 +8,13 @@
     font-size: 72px;
     line-height: 106%;
     text-align: center;
+    white-space: pre-line;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .cover__title {
+        font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
+        margin-top: 99px;
+    }
 }

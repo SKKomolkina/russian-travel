@@ -1,8 +1,38 @@
 .header {
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
     margin-top: 28px;
     padding: 0;
+    padding-left: 48px;
+    padding-right: 48px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    
+    .header {
+        max-width: 100%;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .header {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .header {
+        margin-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

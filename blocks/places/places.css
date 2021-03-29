@@ -1,8 +1,39 @@
 .places {
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
     margin-top: 92px;
     padding: 0;
-    max-width: 984px;
+    padding-left: 148px;
+    padding-right: 148px;
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+
+    .places {
+        margin-top: 88px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .places {
+        margin-top: 88px;
+        margin-bottom: 90px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .places {
+        margin-top: 64px;
+        margin-bottom: 66px;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

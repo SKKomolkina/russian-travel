@@ -1,6 +1,5 @@
-.logo {
+.header__logo {
     margin: 0;
     padding: 0;
-    width: 176px;
-    height: 52px;
+    max-width: 176px;
 }

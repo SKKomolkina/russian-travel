@@ -2,9 +2,35 @@
     max-width: 690px;
     margin-top: 92px;
     margin-bottom: 92px;
-    margin-left: 148px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    padding: 0;
+    padding-left: 148px;
+
+}
+
+@media (max-width: 1024px) {
+    
+    .intro {
+        padding-left: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .intro {
+        max-width: 720px;
+        margin-top: 88px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .intro {
+        max-width: 288px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

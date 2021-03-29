@@ -1,10 +1,32 @@
 .lead__title {
+    max-width: 720px;
     margin: 0;
     padding: 0;
-    max-width: 720px;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
+    line-height: 104%;
     font-size: 96px;
-    line-height: 100px;
     text-align: center;
+    display: inline;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .lead__title {
+        font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width : 320px) {  
+
+    .lead__title {
+        max-width: 100vw;
+        padding-left: 16px;
+        padding-right: 16px;
+        line-height: 44px;
+        font-style: normal;
+        font-weight: 900;
+    }
 }
