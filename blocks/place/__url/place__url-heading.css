@@ -1,4 +1,4 @@
-.place__url_heading {
+.place__url-heading {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -10,7 +10,7 @@
 
 @media (max-width: 320px) {
     
-    .place__url_heading {
+    .place__url-heading {
         margin-top: 0;
     }
 }
