@@ -31,7 +31,7 @@
 @media (min-width: 320px) and (max-width: 768px) {
 
     .intro {
-        margin-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));;
+        margin-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
     }
 }
 
