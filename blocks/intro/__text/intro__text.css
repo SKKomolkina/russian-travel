@@ -1,4 +1,4 @@
-.intro__list_item {
+.intro__text{
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -10,8 +10,7 @@
 
 @media (max-width: 320px) {
     
-    .intro__list_item {
-        font-size: 12px;
+    .intro__text {
         line-height: 18px;
     }
 }

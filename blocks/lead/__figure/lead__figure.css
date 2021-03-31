@@ -1,0 +1,20 @@
+.lead__figure {
+    max-width: 100%;
+    margin: 0;
+    margin-top: 92px;
+    padding: 0;
+}
+
+@media (max-width: 1024px) {
+    
+    .lead__figure {
+        margin-top: 56px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .lead__figure {
+        margin-top: 40px;
+    }
+}

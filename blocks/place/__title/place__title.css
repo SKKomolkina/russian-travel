@@ -22,5 +22,13 @@
     .place__title {
         font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
         line-height: calc(35px + (76 - 35) * ((100vw - 320px) / (768 - 320)));
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 321px) {
+    
+    .place__title {
+        margin-left: 16px;
     }
 }

@@ -1,5 +1,4 @@
 .place__paragraph {
-    max-width: 456px;
     margin: 0;
     padding: 0;
     align-self: start;
@@ -9,14 +8,15 @@
     
     .place__paragraph {
         max-width: 352px;
+        align-self: flex-start;
     }
 }
 
-@media (max-width: 320px) {
+
+@media (min-width: 320px) and (max-width: 768px) {
 
     .place__paragraph {
         max-width: 288px;
-        margin-left: 16px;
     }
 
 }

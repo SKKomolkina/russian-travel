@@ -13,12 +13,13 @@
 
 .footer__link:hover {
     opacity: 0.8;
-}
+    transition: opacity 0.5s ease-in-out;
+} 
 
-@media (max-width: 750px) {
+
+@media (max-width: 830px) {
     
     .footer__link {
-        margin: 0;
         font-size: 24px;
         line-height: 24px;
     }

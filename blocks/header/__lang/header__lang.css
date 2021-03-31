@@ -1,4 +1,7 @@
 .header__lang {
+    margin: 0;
+    margin-left: 18px;
+    padding: 0;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     line-height: 28px;
@@ -6,6 +9,17 @@
     color: white;
     text-decoration: none;
 }
+
+.header__lang:nth-child(1) {
+    margin-left: 0;
+}
+
+
+.header__lang:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+} 
+
 
 @media (max-width: 320px) {  
     

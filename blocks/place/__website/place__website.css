@@ -5,7 +5,14 @@
     align-self: end;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 768px) {
+    
+    .place__website {
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 321px) {
     
     .place__website {
         margin-left: 16px;

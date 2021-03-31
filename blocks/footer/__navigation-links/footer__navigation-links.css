@@ -4,14 +4,15 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    list-style-type: none;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 830px) {
     .footer__navigation-links {
+        min-height: 310px;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        min-height: 300px;
         margin-bottom: 48px;
     }
 

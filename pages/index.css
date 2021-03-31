@@ -19,6 +19,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -55,6 +56,7 @@
 
 /* ---FOOTER--- */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__flex/footer__flex.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__navigation-links/footer__navigation-links.css);

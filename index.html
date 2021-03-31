@@ -6,16 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Russian Travel</title>
+    <title>Путешествия по России</title>
 </head>
 
 <body class="root">
     <header class="header">
-        <div class="header__logo">
-            <a class="header__svg" target="_self" href="#">
-                <embed src="./img/__logo.svg" type="">
-            </a>
-        </div>
+        <a class="header__logo" target="_self" href="#">
+            <img class="header__svg" src="./img/__logo.svg" alt="Логотип Сайта">
+        </a>
         <div class="header__link">
             <a target="_self" href="#" class="header__lang header__lang_change">Ru</a>
             <a target="_self" href="#" class="header__lang">En</a>
@@ -26,16 +24,19 @@
         <section class="lead">
             <h1 class="lead__title">Путешествия
                 по России</h1>
-            <h2 class="lead__subtitle">Настоящая страна не в выпусках
-                новостей, а здесь.</h2>
-            <img src="./img/__image1.jpg" alt="Фото поезд" class="lead__image">
-            <p class="lead__caption">ваша полка — верхняя</p>
+            <p class="lead__subtitle">Настоящая страна не в выпусках
+                новостей, а здесь.</p>
+            <figure class="lead__figure">
+                <img src="./img/__image1.jpg" alt="Фото поезд" class="lead__image">
+                <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+            </figure>
 
         </section>
 
         <section class="intro">
-            <h3 class="intro__title">Чего мы там не видели?</h3>
-            <p class="intro__paragraph">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
+            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <p class="intro__paragraph">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
+                планируют
                 провести отпуск в
                 родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым
                 морем юга, густыми лесами
@@ -58,22 +59,22 @@
         </section>
 
         <section class="photo-grid">
-            <img src="./img/__item1.jpg" alt="Фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item2.jpg" alt="фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item3.jpg" alt="фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item4.jpg" alt="фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item5.jpg" alt="фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item6.jpg" alt="фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item7.jpg" alt="фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item8.jpg" alt="фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item9.jpg" alt="фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item10.jpg" alt="фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item11.jpg" alt="фото Галлерея" class="photo-grid__item">
-            <img src="./img/__item12.jpg" alt="фото Галлерея" class="photo-grid__item">
+            <img src="./img/__item1.jpg" alt="Фото из окна поезда" class="photo-grid__item">
+            <img src="./img/__item2.jpg" alt="Фото заснеженных гор" class="photo-grid__item">
+            <img src="./img/__item3.jpg" alt="Фото стогов сена" class="photo-grid__item">
+            <img src="./img/__item4.jpg" alt="Фото лес с высока" class="photo-grid__item">
+            <img src="./img/__item5.jpg" alt="Фото машина едет по льду" class="photo-grid__item">
+            <img src="./img/__item6.jpg" alt="Фото пляж и горы" class="photo-grid__item">
+            <img src="./img/__item7.jpg" alt="Фото горы" class="photo-grid__item">
+            <img src="./img/__item8.jpg" alt="Фото знак пешеходного перехода и буйки" class="photo-grid__item">
+            <img src="./img/__item9.jpg" alt="Фото скалистая местность" class="photo-grid__item">
+            <img src="./img/__item10.jpg" alt="Фото горы" class="photo-grid__item">
+            <img src="./img/__item11.jpg" alt="Фото море и скалы" class="photo-grid__item">
+            <img src="./img/__item12.jpg" alt="Фото горы в тумане" class="photo-grid__item">
         </section>
 
         <section class="places">
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Куршская коса</h3>
                 <div class="place__website">
                     <h4 class="place__url-heading">URL</h4>
@@ -92,9 +93,9 @@
                         здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
                     </p>
                 </div>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Кольский</h3>
                 <div class="place__website">
                     <h4 class="place__url-heading">URL</h4>
@@ -115,9 +116,9 @@
                         северное сияние начинает сбываться с билетом в Мурманск.
                     </p>
                 </div>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Алтай</h3>
                 <div class="place__website">
                     <h4 class="place__url-heading">URL</h4>
@@ -137,9 +138,9 @@
                         Алтайского края.
                     </p>
                 </div>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Зимний Байкал</h3>
                 <div class="place__website">
                     <h4 class="place__url-heading">URL</h4>
@@ -158,9 +159,9 @@
                         — 197.011 км/ч.
                     </p>
                 </div>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Карелия</h3>
                 <div class="place__website">
                     <h4 class="place__url-heading">URL</h4>
@@ -179,31 +180,33 @@
                         в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                     </p>
                 </div>
-            </div>
+            </article>
         </section>
 
         <section class="cover">
             <a target="_self" href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background">
                 <h3 class="cover__title">До Байкала
                     «на собаках»</h3>
-                <h4 class="cover__subtitle">По мотивам учебной темы
+                <p class="cover__subtitle">По мотивам учебной темы
                     о Транссибе — путешествие от столицы до Байкала на
-                    электричках.</h4>
+                    электричках.</p>
             </a>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="footer__navigation">
-            <ul class="footer__navigation footer__navigation-links">
+        <div class="footer__flex">
+        <nav class="footer__navigation">
+            <ul class="footer__navigation-links">
                 <li><a target="_self" href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
                 <li><a target="_self" href="https://rasp.yandex.ru" class="footer__link">Погода</a></li>
                 <li><a target="_self" href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
                 <li><a target="_self" href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
                 <li><a target="_self" href=" https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
             </ul>
-            <p class="footer__copyright">&copy; 2021. Киселева-Комолкина С. А.</p>
-        </div>
+        </nav>
+        <p class="footer__copyright">&copy; 2021. Киселева-Комолкина С. А.</p>
+    </div>
     </footer>
 </body>
 
