@@ -1,6 +1,7 @@
 .lead__subtitle {
     margin: 0;
     margin-top: 32px;
+    margin-bottom: 64px;
     padding: 0;
     font-style: normal;
     font-weight: normal;
@@ -17,10 +18,19 @@
     }
   }
 
+  @media (max-width: 1024px) {  
+
+    .lead__subtitle {
+        margin-top: 32px;
+        margin-bottom: 56px;
+    }
+}
+
 @media (max-width: 320px) {  
 
     .lead__subtitle {
         margin-top: 16px;
+        margin-bottom: 49px;
         font-size: 16px;
     }
 }
