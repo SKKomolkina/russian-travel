@@ -4,17 +4,3 @@
     padding: 0;
     object-fit: cover;
 }
-
-@media (max-width: 1024px) {
-    
-    .lead__figure {
-        margin-top: 56px;
-    }
-}
-
-@media (max-width: 768px) {
-    
-    .lead__figure {
-        margin-top: 40px;
-    }
-}

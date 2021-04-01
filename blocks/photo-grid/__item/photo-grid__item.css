@@ -1,10 +1,11 @@
 .photo-grid__item {
-    min-width: 284px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     margin: 0;
     padding: 0;
 }
-
+/*
 @media (max-width: 1024px) {
 
     .photo-grid__item {
@@ -24,4 +25,4 @@
     .photo-grid__item {
         max-width: 288px;
     }
-}
+}*/
