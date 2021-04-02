@@ -4,11 +4,12 @@
     align-self: start;
 }
 
-@media (max-width: 320px){
+@media (min-width: 320px) and (max-width: 767px) {
 
     .place__paragraph {
-        max-width: 288px;
+        max-width: 100%;
         margin-top: 32px;
+        align-self: center;
     }
 
 }

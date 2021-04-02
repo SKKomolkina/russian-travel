@@ -1,6 +1,6 @@
 .place {
     max-width: 984px;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 80px;
     padding: 0;
     display: grid;
@@ -22,18 +22,15 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
     .place {
-        min-width: 720px;
+        max-width: 720px;
         margin-bottom: 73px;
         row-gap: 48px;
         grid-template-rows: repeat(2, minmax(min-content, max-content));
         grid-template-columns: repeat(2 minmax(min-content, max-content));
         column-gap: 26px;
-        /*display: flex;
-        flex-direction: column;
-        */
     }
 
     .place:last-of-type {
@@ -41,9 +38,14 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
     .place {
-        max-width: 288px;
+        max-width: 100%;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0 0;
     }
 }

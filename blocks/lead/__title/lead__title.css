@@ -10,16 +10,15 @@
     display: block;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
     .lead__title {
-        font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
         padding-left: 24px;
         padding-right: 24px;
     }
 }
 
-@media (max-width: 321px) {  
+@media (min-width: 320px) and (max-width: 767px) {
 
     .lead__title {
         padding-left: 16px;

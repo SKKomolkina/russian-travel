@@ -7,13 +7,12 @@
     list-style-type: none;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .footer__navigation-links {
-        min-height: 310px;
+        min-height: 248px;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
         margin-bottom: 48px;
     }
-
 }

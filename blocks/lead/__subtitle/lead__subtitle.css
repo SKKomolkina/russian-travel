@@ -12,15 +12,7 @@
     display: block;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
-
-    .lead__subtitle {
-        font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
-        line-height: 20px;
-    }
-  }
-
-  @media (max-width: 1024px) {  
+@media (max-width: 1024px) {  
 
     .lead__subtitle {
         margin-top: 32px;
@@ -28,9 +20,10 @@
     }
 }
 
-@media (max-width: 320px) {  
+@media (min-width: 320px) and (max-width: 767px) {
 
     .lead__subtitle {
+        line-height: 20px;
         max-width: 288px;
         margin-top: 16px;
         margin-bottom: 40px;

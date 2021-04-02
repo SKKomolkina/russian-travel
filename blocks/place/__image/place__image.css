@@ -12,7 +12,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     
     .place__image {
         max-width: 340px;
@@ -20,10 +20,12 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     
     .place__image {
         max-width: 320px;
+        max-height: 320px;
         margin: 0;
+        align-self: center;
     }
 }
