@@ -1,12 +1,14 @@
 .place__image {
-    max-width: 100%;
+    max-width: 460px;
+    max-height: 460px;
     align-self: start;
 }
-/*
+
 @media (max-width: 1024px) {
     
     .place__image {
         max-width: 440px;
+        max-height: 440px;
     }
 }
 
@@ -14,6 +16,7 @@
     
     .place__image {
         max-width: 340px;
+        max-height: 340px;
     }
 }
 
@@ -23,4 +26,4 @@
         max-width: 320px;
         margin: 0;
     }
-}*/
+}

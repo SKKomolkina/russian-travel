@@ -1,5 +1,5 @@
 .place__text {
-    width: 100%;
+    max-width: 484px;
     margin: 0;
     margin-bottom: 26px;
     padding: 0;
@@ -7,30 +7,45 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
+    vertical-align: top;
+    align-self: start;
 }
 
 .place__text:last-child {
     margin-bottom: 0;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
     .place__text {
-        font-size: calc(16px + (18 - 16) * ((100vw - 768px) / (1024 - 768)));
+        margin-bottom: 27px;
+        max-width: 456px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .place__text {
+        min-width: 352px;
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 320px) {
     
     .place__text {
-        align-self: flex-start;
-    }
-}
-
-@media (max-width: 321px) {
-    
-    .place__text {
+        max-width: 288px;
+        margin-bottom: 25px;
         margin-left: 16px;
+        margin-right: 16px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .place__text:last-child {
+        margin-bottom: 0;
     }
 }

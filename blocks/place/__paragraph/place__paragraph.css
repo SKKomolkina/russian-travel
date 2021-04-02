@@ -4,19 +4,11 @@
     align-self: start;
 }
 
-@media (max-width: 768px) {
-    
-    .place__paragraph {
-        max-width: 352px;
-        align-self: flex-start;
-    }
-}
-
-
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 320px){
 
     .place__paragraph {
         max-width: 288px;
+        margin-top: 32px;
     }
 
 }

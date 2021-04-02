@@ -9,7 +9,14 @@
     text-align: right;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 768px) {
+
+    .footer__copyright {
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 320px) {
     
     .footer__copyright {
         text-align: left;

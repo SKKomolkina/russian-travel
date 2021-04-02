@@ -7,7 +7,7 @@
     list-style-type: none;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 320px) {
     .footer__navigation-links {
         min-height: 310px;
         flex-direction: column;

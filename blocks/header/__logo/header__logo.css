@@ -6,7 +6,7 @@
     object-position: center;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 321px) {
 
     .header__logo {
         max-width: 142px;

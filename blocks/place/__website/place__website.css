@@ -1,20 +1,17 @@
 .place__website {
     max-width: 456px;
+    max-height: 46px;
     margin: 0;
     padding: 0;
     align-self: end;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 400px) {
     
     .place__website {
-        align-self: flex-start;
-    }
-}
-
-@media (max-width: 321px) {
-    
-    .place__website {
+        align-self: start;
         margin-left: 16px;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 }
