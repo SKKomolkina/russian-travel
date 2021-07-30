@@ -17,4 +17,4 @@
 * Размещение ветроных и растровых изображений. 
 * Подключение посторонних шрифтов, импорт стилей.
 
-### https://skkomolkina.github.io/russian-travel/
+# https://skkomolkina.github.io/russian-travel/
