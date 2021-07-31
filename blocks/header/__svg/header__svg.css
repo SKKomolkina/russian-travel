@@ -1,9 +1,11 @@
 .header__svg {
+        max-width: 176px;
         margin: 0;
         padding: 0;
-        max-width: 176px;
+        
         object-fit: cover;
         object-position: center;
+        
         overflow: visible;
 } 
      
